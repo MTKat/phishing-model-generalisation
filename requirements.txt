@@ -3,7 +3,7 @@ keras
 tensorflow
 nltk
 pandas
-numpy
+numpy<=1.19.5
 scipy
 matplotlib
 h5py
