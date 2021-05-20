@@ -1,7 +1,7 @@
 import numpy as np
-from keras import Sequential
-from keras.callbacks import ModelCheckpoint
-from keras.layers import LSTM, Dense, Dropout, Activation
+from tensorflow.keras import Sequential
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.layers import LSTM, Dense, Dropout, Activation
 from sklearn.model_selection import train_test_split
 
 NB_LSTM_CELLS = 256

@@ -1,3 +1,5 @@
+import os
+os.chdir('/d2/studies/Alex/MartaPhishingProject/phishing-model-generalisation/demo')
 from keras_malicious_url_detector.library.lstm_embed import LstmEmbedPredictor
 from keras_malicious_url_detector.library.utility.url_data_loader import load_url_data
 import numpy as np
@@ -19,7 +21,7 @@ def main():
     text_model = extract_text_model(url_data['text'])
 
     batch_size = 64
-    epochs = 50
+    epochs = 10
 
     classifier = LstmEmbedPredictor()
 

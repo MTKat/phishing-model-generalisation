@@ -1,7 +1,7 @@
 import numpy as np
-from keras import Sequential
-from keras.callbacks import ModelCheckpoint
-from keras.layers import Embedding, SpatialDropout1D, Conv1D, MaxPooling1D, LSTM, Dense
+from tensorflow.keras import Sequential
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.layers import Embedding, SpatialDropout1D, Conv1D, MaxPooling1D, LSTM, Dense
 from sklearn.model_selection import train_test_split
 
 NB_LSTM_CELLS = 256

@@ -1,3 +1,5 @@
+import os
+os.chdir('/d2/studies/Alex/MartaPhishingProject/phishing-model-generalisation/demo')
 from keras_malicious_url_detector.library.lstm import LstmPredictor
 from keras_malicious_url_detector.library.utility.url_data_loader import load_url_data
 import numpy as np

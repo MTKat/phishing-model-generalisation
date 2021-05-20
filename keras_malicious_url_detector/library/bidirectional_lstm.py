@@ -1,9 +1,9 @@
 import numpy as np
-from keras.layers import Embedding, SpatialDropout1D, LSTM, Bidirectional, Dense
+from tensorflow.keras.layers import Embedding, SpatialDropout1D, LSTM, Bidirectional, Dense
 from sklearn.model_selection import train_test_split
 
-from keras.models import Sequential
-from keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.callbacks import ModelCheckpoint
 
 NB_LSTM_CELLS = 256
 NB_DENSE_CELLS = 256

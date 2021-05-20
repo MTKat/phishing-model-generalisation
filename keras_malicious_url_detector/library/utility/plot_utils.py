@@ -1,3 +1,5 @@
+import os
+os.chdir('/d2/studies/Alex/MartaPhishingProject/phishing-model-generalisation/demo')
 from matplotlib import pyplot as plt
 
 

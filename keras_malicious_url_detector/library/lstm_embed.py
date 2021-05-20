@@ -1,7 +1,9 @@
+import os
+os.chdir('/d2/studies/Alex/MartaPhishingProject/phishing-model-generalisation/demo')
 import numpy as np
-from keras import Sequential
-from keras.callbacks import ModelCheckpoint
-from keras.layers import Embedding, LSTM, Dense
+from tensorflow.keras import Sequential
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.layers import Embedding, LSTM, Dense
 from sklearn.model_selection import train_test_split
 
 NB_LSTM_CELLS = 256
